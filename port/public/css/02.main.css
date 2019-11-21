@@ -1,0 +1,169 @@
+/* 공통사항 */
+html,body {
+	height: 100%;
+	color: #111;
+}
+
+.wrap {
+	width: 100%;
+	height: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+}
+
+.lt-navi {
+	float: left;
+	width: 300px;
+	height: 100%;
+	position: fixed;
+}
+
+.rt-cont {
+	float: right;
+	background-color: #eee;
+	padding: 20px;
+	width: calc(100% - 300px);
+	height: 5000px;
+}
+
+
+.lt-navi>.avatar {
+	width: 40%;
+	margin: 20px;
+}
+
+.lt-navi>.avatar>img {
+	border-radius: 6px;
+}
+
+.lt-navi>.tit {
+	padding: 16px 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.lt-navi>.stit {
+	padding: 16px 20px;
+	color: #a18ab1;
+}
+
+.lt-navi>.navi {
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.lt-navi> :nth-child(4) {
+	color: rgb(41, 159, 163);
+}
+
+.lt-navi>.navi:hover {
+	background-color: #ccc;
+}
+
+.lt-navi>.navi .fas {
+	margin-right: 20px;
+}
+
+.lt-navi>.brands {
+	padding: 20px;
+}
+
+
+.rt-cont>h1 {
+	padding: 16px 0;
+}
+
+.rt-cont>.navis {
+	margin-top: 16px;
+}
+.rt-cont>.navis>li {
+	padding: 8px 16px;
+	display: inline-block;
+}
+.rt-cont>.navis>li:first-child {
+	padding-left: 0;
+}
+
+.rt-cont>.navis>.navi-def {
+	background-color: #a18ab1;
+	color: #fff;
+	cursor: pointer;
+}
+.rt-cont>.navis>.navi:hover {
+	background-color: #ccc;
+	cursor: pointer;
+}
+.rt-cont>.navis>.navi-def:hover {
+	background-color: #ccc;
+	color: #000;
+}
+.lt-navi > .brands > i:hover{
+	opacity: 0.7;
+}
+.rt-cont .bar {
+	height: 6px;
+	background-color: rgb(255, 255, 255);
+	margin: 16px 0;
+}
+.photo {
+	margin-top: 30px;
+}
+.nature {
+	float: left;
+	width: 32%;
+	margin: 7px;
+}
+.nature-img:hover {
+	opacity: 0.7;
+}
+.nature-datas {
+	padding: 16px;
+	background-color: #fff;
+}
+.nature-name {
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 16px;
+}
+.nature-date {
+	margin-bottom: 16px;
+}
+.pager {
+	width: 240px;
+	margin: 50px auto;
+	cursor: pointer;
+}
+.pager > li {
+	float: left;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 38px;
+}
+.pager > li:hover {
+	background-color:  #ccc;
+}
+.pager > li:nth-child(2) {
+	background-color: #a18ab1;
+	color: #f8f8f8;
+}
+.pager > li:nth-child(2):hover {
+	background-color: #ccc;
+	color: #f8f8f8;
+}
+.sbimg {
+	float: left;
+
+}
+/*
+padding: 32px 0;
+ margin-top: 30px; */
+.sb {
+	float:left;
+	width: 48%;
+	margin: 7px;
+	margin-top: 50px;
+}
+.sbimg > {
+	margin-top: 250px
+}
