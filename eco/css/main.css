@@ -105,11 +105,12 @@ margin: 0 auto;
 }
 
 .navi {
+	font-weight: bold;
 	color: #2d2d51;
 }
 
 .navi:hover {
-	color: #b21128;
+	color: #cc3b3b;
 }
 
 .banner-wrap {
