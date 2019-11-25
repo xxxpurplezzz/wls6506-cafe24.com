@@ -2,6 +2,7 @@
 body {
 	font-size: 14px;
 }
+
 .wrap {
 	margin: 0 auto;
 	width: 100%;
@@ -9,13 +10,15 @@ body {
 	padding: 50px 15px;
 
 }
-.mn-tit{
+
+.mn-tit {
 	background-color: #f7f7f7;
 	color: #313131;
 	letter-spacing: 6px;
 	font-size: 32px;
 	text-align: center;
 }
+
 .sub-tit {
 	text-align: center;
 	color: #e97474;
@@ -24,12 +27,13 @@ body {
 	padding: 20px 0;
 }
 
-.mn-tit2{
+.mn-tit2 {
 	color: #e97474;
 	letter-spacing: 6px;
 	font-size: 32px;
 	text-align: center;
 }
+
 .sub-tit2 {
 	text-align: center;
 	color: #d4b6b6;
@@ -40,22 +44,35 @@ body {
 
 /* tops */
 .tops {
-  background-color: #f7f7f7; color: #111; 
-		position: fixed; z-index:9999; width: 100%; top: 0; left: 0;
+	background-color: #f7f7f7;
+	color: #111;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
 
-.top-menu {display: block;}
-.logo-img {height: 40px;}
-.navi-wrap {display: flex;}
+.top-menu {
+	display: block;
+}
 
 
-.banner-img {width: 100%;}
+.navi-wrap {
+	display: flex;
+}
+
+
+.banner-img {
+	width: 100%;
+}
 
 .search {
 	float: right;
 	padding: 12px 20px;
 	cursor: pointer;
 }
+
 .search:hover {
 	background-color: #ddd;
 	color: #d4b6b6;
@@ -67,50 +84,94 @@ body {
 
 /* bans */
 
-.main-bans {position: relative; overflow: hidden}
-	.main-ban {position: relative; width: 300%; display: flex;}
-	.main-ban > li {position: relative; flex: 100% 1 1;}
-	.main-bans .pagers {position: absolute; bottom: 30px; display: flex; justify-content: center; left:0; right: 0; margin: auto;}
-	.main-bans .pager {padding: 0.25rem; cursor: pointer; color: #222; font-size: 1.25rem; transition: color 1s;}
-	.main-bans .pager.active {color: #d4b6b6;}
+.main-bans {
+	position: relative;
+	overflow: hidden
+}
 
-	
+.main-ban {
+	position: relative;
+	width: 300%;
+	display: flex;
+}
+
+.main-ban>li {
+	position: relative;
+	flex: 100% 1 1;
+}
+
+.main-bans .pagers {
+	position: absolute;
+	bottom: 30px;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.main-bans .pager {
+	padding: 0.25rem;
+	cursor: pointer;
+	color: #222;
+	font-size: 1.25rem;
+	transition: color 1s;
+}
+
+.main-bans .pager.active {
+	color: #d4b6b6;
+}
+
+
 
 .bans {
 	position: relative;
 	text-align: center;
 	color: #f8f8f8;
 }
-.bans > h2 {
-position: absolute;
-bottom: 10%; width: 100%;
-}
-.bans > h4 {
+
+.bans>h2 {
 	position: absolute;
-	bottom: 7%; width: 100%;
+	bottom: 10%;
+	width: 100%;
 }
+
+.bans>h4 {
+	position: absolute;
+	bottom: 7%;
+	width: 100%;
+}
+
 /* bands */
 .cont {
 	text-align: justify;
 	line-height: 1.8;
 }
+
 .member {
 	margin-top: 50px;
 }
-.member > div {
-	width:  33.3333%;
+
+.member>div {
+	width: 33.3333%;
 	float: left;
 }
+
 .member .tit {
 	text-align: center;
 	padding: 16px 0;
 }
-.tit-sub {text-align: center; color: #999;
-	font-size: 12px;}
+
+.tit-sub {
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+}
 
 .member .photo {
 	padding: 18%;
 }
+
 .member .photo img {
 	border-radius: 6px;
 }
@@ -119,31 +180,38 @@ bottom: 10%; width: 100%;
 .tours {
 	background-color: #f8f8f8;
 }
+
 .tours .mn-tit {
 	color: #f8f8f8;
 }
+
 .dates {
 	color: #f8f8f8;
 	background-color: #3f3f3f;
 	border: 1px #ccc;
 	margin-top: 30px;
 }
-.dates > li {
+
+.dates>li {
 	padding: 12px 16px;
 }
+
 /*
 :first-child => 첫번째 자식
 :last-child => 마지막 자식
 :nth-child(n) =>n번째 자식 
  */
-.dates > li:not(:last-child) {
+.dates>li:not(:last-child) {
 	border-bottom: 1px solid #6e6e75;
 }
+
 .dates span {
-	background-color: #d4b6b6; color: #f8f8f8;
+	background-color: #d4b6b6;
+	color: #f8f8f8;
 	padding: 4px 8px;
 	margin-left: 30px;
 }
+
 .dates .badge {
 	float: right;
 	background-color: #d4b6b6;
@@ -151,6 +219,7 @@ bottom: 10%; width: 100%;
 	padding: 2px 10px;
 	border-radius: 50%;
 }
+
 /* 
 .citi div => .city 안에 있는 자손포함 모든 div들
 .city > div => .city 바로 아래있는(자식만) div들
@@ -159,10 +228,12 @@ div.city => 모든 div들 중에 city라는 클래스를 가지고 있는 div
 .cities {
 	margin-top: 30px;
 }
- .city {
+
+.city {
 	float: left;
 	width: 32%;
 }
+
 .city:nth-child(2) {
 	margin: 0 2%;
 }
@@ -170,85 +241,116 @@ div.city => 모든 div들 중에 city라는 클래스를 가지고 있는 div
 .city-img:hover {
 	opacity: 0.7;
 }
- 		.city-datas {
+
+.city-datas {
 	padding: 16px;
 	background-color: #f8f8f8;
 }
- 		.city-name {
+
+.city-name {
 	font-weight: bold;
 	color: #000;
 	margin-bottom: 16px;
 }
-		.city-date {
+
+.city-date {
 	color: #555;
 	margin-bottom: 16px;
 }
-	.city-cont {
+
+.city-cont {
 	margin-bottom: 16px;
 }
-	 .bt-buy {
-		background-color:  #3f3f3f;
-		color: #f8f8f8;
-		padding: 8px 12px;
-		cursor: pointer;
-	}
-	.bt-buy:hover {
-		background-color: #d4b6b6;
-		color: #000;
+
+.bt-buy {
+	background-color: #3f3f3f;
+	color: #f8f8f8;
+	padding: 8px 12px;
+	cursor: pointer;
+}
+
+.bt-buy:hover {
+	background-color: #d4b6b6;
+	color: #000;
+}
+
+/* 컨텍 */
+.contact-form {
+	margin: 20px 0;
+}
+
+.contact-form>ul {
+	width: 50%;
+	float: left;
+}
+
+.contact-info {
+	font-size: 18px;
+}
+
+.contact-info>li {
+	padding: 4px 0;
+}
+
+.contact-info>li>i {
+	width: 30px;
+}
+
+.contact-mail>form>div {
+	margin: 8px 0;
+}
+
+.contact-mail .name,
+.contact-mail .email {
+	float: left;
+	width: 49%;
+}
+
+.contact-mail .name {
+	margin-right: 2%;
+}
+
+.contact-mail .bt-send {
+	padding: 6px 12px;
+	background-color: #111;
+	color: #f8f8f8;
+}
+
+/* 반응형 처리 */
+
+@media screen and (max-width: 640px) {
+	.search .fa-bars {
+		display: inline-block;
 	}
 
-	/* 컨텍 */
-	.contact-form  {
-		margin: 20px 0;
+	.search .fa-search {
+		display: none;
 	}
-	.contact-form > ul {
-		width: 50%;
-		float: left;
+
+	.search:hover {
+		background-color: #ddd;
+		color: #e97474;
 	}
-	.contact-info {
-		font-size: 18px;
+
+	.navi-bt {
+		display: none;
 	}
-	.contact-info >li {
-		padding: 4px 0;
+
+	.member>div {
+		width: 100%;
 	}
-	.contact-info > li > i {
-		width: 30px;
+
+	.city {
+		width: 96%;
+		margin: 2%;
 	}
-	.contact-mail > form > div {
-		margin: 8px 0;
+
+	.city:nth-child(2) {
+		margin: 2%;
 	}
-	.contact-mail .name,
-	.contact-mail .email {
-		float: left; width: 49%;
+
+	.contact-form>ul {
+		width: 90%;
+		margin: 2%;
 	}
-	.contact-mail .name {
-		margin-right: 2%;
-	}
-	.contact-mail .bt-send {
-		padding: 6px 12px;
-		background-color: #111;
-		color: #f8f8f8;
-	}
-	
-	/* 반응형 처리 */
-	
-	@media screen and (max-width: 640px) {
-		.search .fa-bars {
-			display: inline-block;}
-			.search .fa-search {display: none;}
-			.search:hover {
-				background-color: #ddd;
-				color: #e97474;}
-				.navi-bt {display: none;}
-				.member > div {
-					width:  100%;}
-					.city {
-						width: 96%;
-					  margin: 2%;}
-					.city:nth-child(2) {
-						margin: 2%;}
-						.contact-form > ul {
-							width: 90%;
-							margin: 2%;
-						}
-	}
+}
