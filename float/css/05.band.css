@@ -230,10 +230,6 @@ div.city => 모든 div들 중에 city라는 클래스를 가지고 있는 div
 		color: #f8f8f8;
 	}
 	
-	.videos {
-		
-	}
-
 	/* 반응형 처리 */
 	
 	@media screen and (max-width: 640px) {
