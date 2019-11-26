@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon&display=swap');
 
 /* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Coming Soon', cursive; */
 /* 
 녹색: #66a765
 갈색: #a8715c
@@ -29,6 +31,10 @@ body {
 
 .sans-serif {
 	font-family: 'Josefin Sans', sans-serif;
+}
+
+.cursive {
+	font-family: 'Coming Soon', cursive;
 }
 
 .tip {
@@ -77,10 +83,6 @@ body {
 	min-height: 400px;
 }
 
-.slogan-icons>li:hover {
-	color: #66a765;
-}
-
 /* transition 복습 */
 /*
 .box {width: 100px; height: 100px; background-color: #111; transition: all 1s;}
@@ -95,9 +97,9 @@ body {
 	display: block;
 }
 
-.logo > img {
-display: block;
-margin: 0 auto;
+.logo>img {
+	display: block;
+	margin: 0 auto;
 }
 
 .navi-wrap {
@@ -110,7 +112,7 @@ margin: 0 auto;
 }
 
 .navi:hover {
-	color: #cc3b3b;
+	color: #dd2424;
 }
 
 .banner-wrap {
@@ -132,7 +134,7 @@ margin: 0 auto;
 }
 
 .banner-slogan>h4 {
-	color: #a8715c;
+	color: #2d2d51;
 	font-size: 1.5em;
 }
 
@@ -141,7 +143,7 @@ margin: 0 auto;
 }
 
 .item:hover {
-	color: #66a765;
+	color: #2d2d51;
 }
 
 .item>li:first-child {
@@ -157,23 +159,6 @@ margin: 0 auto;
 	transform: scale(1.2);
 }
 
-.ads-slogan {
-	font-size: 0.25rem;
-}
-
-.ads-slogan .title {
-	font-size: 3em;
-}
-
-.ads-slogan .desc {
-	font-size: 1.25em;
-	margin: 1.25em 0;
-}
-
-.ads-slogan .btn {
-	padding: 0.5em 1em;
-}
-
 .popular-wrap .prd {
 	flex: 0 0 98%;
 }
@@ -183,21 +168,20 @@ margin: 0 auto;
 }
 
 .popular-wrap .prd-title:hover {
-	color: #66a765;
+	color: #2d2d51;
 }
 
 .popular-wrap .btn-success {
-	background-color: #66a765;
+	background-color: #2d2d51;
 }
 
 .popular-wrap .btn-success:hover {
-	background-color: #a8715c;
-	border-color: #e6945e;
+	background-color: #dd2424;
 }
 
 .popular-wrap .prd-icon {
 	position: absolute;
-	background-color: rgba(250, 240, 200, 0.9);
+	background-color: #ffcd60e6;
 	width: 50px;
 	height: 50px;
 	line-height: 50px;
@@ -210,7 +194,7 @@ margin: 0 auto;
 
 .popular-wrap .prd-icon:hover {
 	color: #f8f8f8;
-	background-color: #66a765;
+	background-color: #dd2424;
 }
 
 .popular-wrap .prd-view {
@@ -231,23 +215,23 @@ margin: 0 auto;
 	min-height: 600px;
 } */
 .footer-wrap {
-	background-color: #e0f4db;
+	background-color: #7d9eb7;
 }
 
 .footer-wrap .list {
-	color: #a8715c;
+	color: #2d2d51;
 }
 
 .footer-wrap .list:hover {
-	color: #66a765;
+	color: #2d2d51;
 }
 
 .footer-wrap .fab {
-	color: #66a765;
+	color: #ffcd60e6;
 }
 
 .footer-wrap .fab:hover {
-	color: #222;
+	color: #2d2d51;
 }
 
 .footer-wrap .list {
@@ -255,12 +239,18 @@ margin: 0 auto;
 }
 
 .footer-wrap .title {
-	border-bottom: 1px solid #66a765;
+	border-bottom: 1px solid #2d2d51;
 	cursor: pointer;
 }
 
 .footer-wrap .title:hover {
-	color: #66a765;
+	color: #ffcd60e6;
+}
+
+
+.media-body > img {
+	display: block;
+	margin: 0 auto;
 }
 
 .bt-top {
@@ -271,11 +261,11 @@ margin: 0 auto;
 	cursor: pointer;
 	transform: all 0.5s;
 	padding: 1rem 1.5rem 1rem 1.5rem;
-	background-color: #66a765;
+	background-color: #2d2d51;
 }
 
 .bt-top:hover {
-	background-color: #a8715c;
+	background-color: #445280;
 	padding: 0.7rem 1.5rem 1.3rem 1.5rem;
 }
 
@@ -288,10 +278,6 @@ margin: 0 auto;
 @media screen and (min-width: 576px) {
 	.item>li:first-child {
 		max-width: 100%;
-	}
-
-	.ads-slogan {
-		font-size: 0.5rem;
 	}
 
 	.popular-wrap .prd {
@@ -349,10 +335,6 @@ margin: 0 auto;
 	.banner-wrap {
 		font-size: 1.5rem;
 		/* 8px */
-	}
-
-	.ads-slogan {
-		font-size: 1rem;
 	}
 
 	.popular-wrap .prd {
