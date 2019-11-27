@@ -117,7 +117,7 @@ for(var i in populars) {
 	html +=	'<li class="prd-title mt-3 f-12">'+populars[i].title+'</li>';
 	html +=	'<li class="prd-price my-2 f-17">'+populars[i].price+'</li>';
 	html +=	'<li class="prd-bt">'
-	html +=	'<button class="btn btn-sm btn-success">Add to Cart</button>';
+	html +=	'<button class="btn btn-sm btn-light">Add to Cart</button>';
 	html +=	'</li>';
 	html +=	'<li data-toggle="tooltip" data-placement="left" title="Quick View" class="prd-icon prd-view tooltip-bt"><i class="fas fa-eye"></i></li>';
 	html +=	'<li data-toggle="tooltip" data-placement="left" title="You need to login" class="prd-icon prd-login tooltip-bt"><i class="fas fa-heart"></i></li>';

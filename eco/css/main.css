@@ -171,12 +171,14 @@ body {
 	color: #2d2d51;
 }
 
-.popular-wrap .btn-success {
+.popular-wrap .btn-light {
 	background-color: #2d2d51;
+	color: #ddd;
 }
 
-.popular-wrap .btn-success:hover {
+.popular-wrap .btn-light:hover {
 	background-color: #dd2424;
+	color: #ddd;
 }
 
 .popular-wrap .prd-icon {
