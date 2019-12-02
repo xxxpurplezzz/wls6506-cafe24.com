@@ -28,9 +28,11 @@ header {
 }
 
 .banner-slogan>h1 {
-	font-size: 7vw;
+	font-size: 7vh;
 	color: #496490;
 }
+
+
 
 /* 아이콘 */
 
@@ -333,10 +335,32 @@ header {
 	.circle h5 {
 		font-size: 14px;
 	}
+
+	.circle-img {
+		display: none;
+	}
+	
+	.iphone {
+		width: 100px;
+	}
+
+	.icon-img {
+		top: 12rem;
+	}
 }
 
 
 /* 스마트폰 세로 */
 @media screen and (max-width: 576px) {
+	.box1 {
+		width: 65%;
+	}
 
+	.pofor-img > .img {
+		width: 100%;
+	}
+
+	.cir {
+		width: 10%;
+	}
 }
