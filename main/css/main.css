@@ -17,6 +17,11 @@ header {
 	font-family: 'LotteMartHappy', sans-serif;
 }
 
+section {
+	width: 100%;
+	overflow-x: hidden;
+}
+
 .bans {
 	position: relative;
 }
@@ -28,11 +33,9 @@ header {
 }
 
 .banner-slogan>h1 {
-	font-size: 7vh;
+	font-size: 7vw;
 	color: #496490;
 }
-
-
 
 /* 아이콘 */
 
@@ -68,6 +71,13 @@ header {
 	color: #496490;
 }
 
+.phone {
+	top: 12%;
+	left: 57%;
+	transform: rotate(15deg);
+	position: relative;
+}
+
 .skills {
 	position: relative;
 	left: 0;
@@ -84,7 +94,7 @@ header {
 }
 
 #skill {
-	padding: 20rem;
+	padding: 20rem 0;
 	text-align: center;
 }
 
@@ -119,7 +129,14 @@ header {
 	background: #afc6e8;
 }
 
+.circle-wrap {
+	margin: 0 auto;
+}
+
 .circle-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	line-height: 0;
 	font-size: 0;
 	white-space: nowrap;
@@ -128,7 +145,7 @@ header {
 .circle {
 	position: relative;
 	display: inline-block;
-	margin: 0 30px;
+	margin: 30px;
 	text-align: center;
 	line-height: 1.2;
 }
@@ -164,7 +181,7 @@ header {
 }
 
 .box1 {
-	width: 40%;
+	width: 70%;
 	height: 2rem;
 	margin: 7px auto;
 	background: #afc6e8;
@@ -207,7 +224,7 @@ header {
 }
 
 .pofor-desc>.desc {
-	cursor: pointer;
+
 }
 
 .pofor-cir {
@@ -249,6 +266,12 @@ header {
 .pofor-desc2>.desc {
 	cursor: pointer;
 	;
+}
+
+.pofor-cir2 {
+	position: absolute;
+	top: -15%;
+	left: 55%;
 }
 
 
@@ -305,12 +328,46 @@ header {
 
 
 
-/* 576 ~ 767 - sm - 스마트폰 가로 */
-@media screen and (min-width: 576px) {}
+
+@media screen and (max-width: 1024px) {
+	.icon-img {
+		top: 10rem;
+		width: 25%;
+	}
+
+	.pofor-cir > img {
+		width: 50%;
+	}
+
+	.pofor-cir2 {
+		top: -5%;
+		
+	}
+
+	.pofor-cir2 > img {
+		width: 0%;
+		
+	}
+
+	.pofor-desc {
+		padding-top: 1rem;
+		margin-left: 5rem;
+	}
+
+}
 
 /* 768 ~ 991 - md - 태블릿 세로 */
-
 @media screen and (max-width:768px) {
+
+	.icon-img {
+		top: 7rem;
+		width: 25%;
+	}
+
+	.iphone {
+		display: none;
+	}
+
 	#skill {
 		padding: 100px 20px;
 	}
@@ -324,9 +381,10 @@ header {
 		font-size: 14px;
 	}
 
-	.circle {
-		margin: 0 10px;
+	.circle-img {
+		display: none;
 	}
+
 
 	.circle .percent {
 		font-size: 14px;
@@ -335,32 +393,30 @@ header {
 	.circle h5 {
 		font-size: 14px;
 	}
-
-	.circle-img {
-		display: none;
-	}
-	
-	.iphone {
-		width: 100px;
-	}
-
-	.icon-img {
-		top: 12rem;
-	}
 }
 
 
 /* 스마트폰 세로 */
 @media screen and (max-width: 576px) {
-	.box1 {
-		width: 65%;
+	.iphone {
+		display: none;
 	}
 
-	.pofor-img > .img {
-		width: 100%;
+	.pofor-items {
+	flex-wrap: wrap;
 	}
 
-	.cir {
-		width: 10%;
+	.pofor-img {
+		width: 200%;
+		margin: 5rem 0;
+	}
+
+	.pofor-desc {
+		padding-top: 0;
+		margin-left: 0;
+	}
+
+	.pofor-cir {
+		top: 7rem;
 	}
 }
