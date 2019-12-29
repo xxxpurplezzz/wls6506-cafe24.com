@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CONVERSE</title>
+	<link rel="stylesheet" href="../css/fa.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/imagesloaded.pkgd.min.js"></script>
+	<script src="../js/masonry.pkgd.min.js"></script>
+	<script src="../js/wow.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<!-- 상단: 분홍색 배너 -->
+		<div class="top-banner">
+			<div class="wrap">
+				[NEW] 컨버스 X 펑첸왕 컬렉션
+				<div class="fas fa-times" id="bt-top-close"></div>
+			</div>
+		</div>
+		<!-- 상단: 국가/통화/검색 -->
+		<div class="top-icons wrap">
+			<div>Customer Service +018 900 6690</div>
+			<div class="langs sel-top">
+				<img src="../img/i-lang-1.png" class="sel-top-img" alt="영어">
+				<span class="sel-top-txt">ENG</span>
+				<i class="fas fa-angle-down pointer"></i>
+				<ul>
+					<li class="pointer">
+						<img src="../img/i-lang-1.png" alt="영어">
+						<span>ENG</span>
+					</li>
+					<li class="pointer">
+						<img src="../img/i-lang-2.png" alt="독일어">
+						<span>GER</span>
+					</li>
+				</ul>
+			</div>
+			<div class="currency sel-top">
+				<img src="../img/i-lang-1.png" class="sel-top-img" alt="달러">
+				<span class="sel-top-txt">ENG</span>
+				<i class="fas fa-angle-down pointer"></i>
+				<ul>
+					<li class="pointer">
+						<img src="../img/i-currency-1.png" alt="달러">
+						<span>USD</span>
+					</li>
+					<li class="pointer">
+						<img src="../img/i-currency-2.png" alt="유로">
+						<span>EURO</span>
+					</li>
+					<li class="pointer">
+						<img src="../img/i-currency-3.png" alt="파운드">
+						<span>GBP</span>
+					</li>
+					<li class="pointer">
+						<img src="../img/i-currency-4.png" alt="프랑">
+						<span>CHF</span>
+					</li>
+				</ul>
+			</div>
+			<div class="schs">
+				<form action="/sch_main" method="post" name="schForm" onsubmit="return false;">
+					<input type="text" name="schTxt" class="sch-txt" placeholder="Search">
+					<button type="submit" class="sch-bt"><i class="fas fa-search"></i></button>
+				</form>
+				<div class="sch-layer">
+					<div class="sch-trending">
+						<div class="tit">TRENDING</div>
+						<ul class="tags">
+							<li class="tag">
+								<i class="fas fa-search"></i>
+								<span>dempus</span>
+							</li>
+						</ul>
+					</div>
+					<div class="sch-popular">
+						<div class="tit">POPULAR PRODUCTS</div>
+						<div class="prds">
+							<ul class="prd">
+								<li class="prd-img"><img src="../img/566566C_566566C_primary.jpg" class="img"></li>
+								<li class="prd-tit">척테일러 올스타 리프트 스웨이드</li>
+								<li class="prd-desc">시그니처컨버스 스타일로 추위를 이겨내보세요. 내구성이 뛰어난 스웨이드와 아늑한 셰르파가 따듯하고 보송한 상태를 유지시켜줍니다.</li>
+								<li class="prd-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="prd-price">99,000원</li>
+								<li class="prd-refs">
+									<div class="prd-ref">
+										<img src="../img/566563C_566563C_primary.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/566564C_566564C_primary.jpg" class="img">
+									</div>
+									<div class="prd-ref"></div>
+								</li>
+							</ul>
+							<ul class="prd">
+								<li class="prd-img"><img src="../img/M9160C_black1.jpg" class="img"></li>
+								<li class="prd-tit">척테일러 올스타 클래식</li>
+								<li class="prd-desc">오랫동안 사랑 받아 온 컨버스의 베스트 셀러로, 컨버스만의 오리지널리티를 살린 디자인이 돋보입니다. 클래식한 컬러로 출시 되었습니다.</li>
+								<li class="prd-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="prd-price">59,000원</li>
+								<li class="prd-refs">
+									<div class="prd-ref">
+										<img src="../img/M9622C_primary.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/M9621C_red1.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/M7650C_primary.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/M3310C_allblack1.jpg" class="img">
+									</div>
+									<div class="prd-ref">+2</div>
+								</li>
+							</ul>
+							<ul class="prd">
+								<li class="prd-img"><img src="../img/565061C_565061C_primary.jpg" class="img"></li>
+								<li class="prd-tit">Tomorrow</li>
+								<li class="prd-desc">1995년에 처음 공개된 컨버스 볼티지(CONVERSE VLTG)는 역동적인 '볼트-쉐브론' 어퍼 패턴을 통해 NBA 코트의 가장 핫한 아이템을
+									보여줬습니다.</li>
+								<li class="prd-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="prd-price">105,000</li>
+								<li class="prd-refs">
+									<div class="prd-ref">
+										<img src="../img/565062C_565062C_primary.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/565063C_565063C_primary.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/565531C_565531C_primary.jpg" class="img">
+									</div>
+									<div class="prd-ref"></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 상단: 로고/카트/위시리스트/로그인-->
+		<div class="top-links wrap">
+			<div class="logo">
+				<img src="../img/logo_strip_201707.png" class="img">
+			</div>
+			<div class="top-link">
+				<div class="desc">FREE SHIPPING ON ALL ORDERS. NO MINIMUM PURCHASE</div>
+				<ul class="bts">
+					<li>
+						<img src="../img/shop-bag2.svg" style="width: 26px;">
+						<span>Shopping Cart</span>
+						<span class="rnd-cnt">0</span>
+					</li>
+					<li>
+						<i class="fas fa-heart"></i>
+						<span class="underbar">My Wish Lists</span>
+					</li>
+					<li>
+						<span class="underbar">Sign In</span>
+						<span>or</span>
+						<span class="underbar">Create an account</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 상단: 네비게이션 -->
+		<ul class="top-navis">
+			<ul class="top-navi wrap">
+				<li class="navi underbar navi-under">
+					<span>MEN</span>
+					<div class="subs">
+						<div class="sub wrap grid-two">
+							<div class="sub-navi">
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="navi underbar navi-under">
+					<span>TREND</span>
+					<div class="subs">
+						<div class="sub wrap grid-two">
+							<div class="sub-navi">
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+							</div>
+							<div class="sub-ad2">
+								<div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="navi underbar navi-under">
+					<span class="position-relative">
+						COLLECTIONS
+						<div class="tip" style="background-color: #ef6454;">SALE</div>
+					</span>
+					<div class="subs">
+						<div class="sub wrap grid-card">
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="navi underbar rel navi-show">
+					<span>LOOKBOOK</span>
+					<ul class="subs subs-local">
+						<li>Lookbook Default</li>
+						<li>Lookbook Custom</li>
+					</ul>
+				</li>
+				<li class="navi underbar navi-under">
+					<span class="position-relative">
+						DEMO
+						<div class="tip" style="background-color: #06bfe2;">NEW</div>
+					</span>
+					<div class="subs">
+						<div class="sub wrap grid-masonry">
+							<div class="sub-navi grid-wrap">
+								<div class="grid-sizer"></div>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+							</div>
+							<div class="sub-ad3">
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="navi underbar rel navi-show">
+					<span>PAGES</span>
+					<ul class="subs subs-local">
+						<li>Lookbook Default</li>
+						<li>Lookbook Custom</li>
+					</ul>
+				</li>
+				<li class="navi underbar rel navi-show">
+					<span>BLOG</span>
+					<ul class="subs subs-local">
+						<li>Lookbook Default</li>
+						<li>Lookbook Custom</li>
+					</ul>
+				</li>
+				<li class="navi underbar">
+					<span>BRENDS</span>
+				</li>
+				<li class="navi underbar">
+					<span>FAQS</span>
+				</li>
+			</ul>
+		</ul>
+	</header>
+	<!-- 메인: 배너 -->
+	<main>
+		<section class="main-bans">
+			<ul class="main-ban pointer">
+				<li>
+					<img src="../img/PC_메인배너_chuck70-E260.jpg" alt="메인배너" class="img">
+				</li>
+				<li>
+					<img src="../img/PC_메인배너_쿼드립스탑.jpg" alt="메인배너" class="img">
+				</li>
+				<li>
+					<img src="../img/PC_메인배너_럭키스타레더.jpg" alt="메인배너" class="img">
+				</li>
+			</ul>
+			<div class="pagers">
+				<div class="pager active">●</div>
+				<div class="pager">●</div>
+				<div class="pager">●</div>
+			</div>
+		</section>
+	</main>
+	<!-- 메인: 배너 바로 밑의 5개 상품 -->
+	<section class="bests wrap">
+		<div class="best-wrap">
+			<h3 class="best-tit">NEW</h3>
+			<ul class="best-items">
+				<li class="best-item">
+					<img src="../img/165943C_165943C_3.jpg" alt="best" class="img">
+				</li>
+				<li class="best-item">
+					<img src="../img/166373C_166373C_3.jpg" alt="best" class="img">
+				</li>
+				<li class="best-item">
+					<img src="../img/167478C_167478C_3.jpg" alt="best" class="img">
+				</li>
+				<li class="best-item">
+					<img src="../img/166281C_166281C_3.jpg" alt="best" class="img">
+				</li>
+				<li class="best-item">
+					<img src="../img/167484C_167484C_3.jpg" alt="best" class="img">
+				</li>
+			</ul>
+		</div>
+		<div class="best-prev" id="best-prev">&lt;</div>
+		<div class="best-next" id="best-next">&gt;</div>
+	</section>
+	<!-- 중간: 오른쪽 그림/왼쪽 상품 3개 배너 -->
+	<section class="sellers">
+		<div class="seller-items">
+			<div class="seller-imgs">
+				<img src="../img/PC_Bottom.jpg" alt="ad" class="img">
+			</div>
+			<div class="seller-prds rel">
+				<div class="best-prev" id="seller-prev">&lt;</div>
+				<div class="best-next" id="seller-next">&gt;</div>
+				<h3 class="seller-tit">BEST SELLERS</h3>
+				<div class="common-items" id="seller-slide">
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/165943C_165943C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/165943C_165943C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척테일러 올스타 고어텍스 소호 서바이버</li>
+						<li class="common-price">89,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/165941C_165941C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/165941C_165941C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척테일러 올스타 고어텍스 소호 서바이버</li>
+						<li class="common-price">95,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/166280C_166280C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/166280C_166280C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척 70 소호 서바이버</li>
+						<li class="common-price">99,000원</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 중간: 카테고리 3개 이미지 -->
+	<section class="arrivals">
+		<div class="arrival-items wrap">
+			<ul class="arrival-item">
+				<li class="arrival-img"><img src="../img/MC_메인배너_쿼드립스탑.jpg" alt="사진" class="img">
+				</li>
+				<li class="arrival-tit">CHUCK 70 QUAD RIPSTOP</li>
+				<li class="arrival-cont">탁월한 내구성의 립스탑 소재로 선보이는 컬러 블로킹 스니커즈</li>
+				<li class="arrival-bt">
+					<button class="bt-rev invert">SHOP NOW</button>
+				</li>
+			</ul>
+			<ul class="arrival-item">
+				<li class="arrival-img"><img src="../img/MC_메인배너_포니헤어.jpg" alt="사진" class="img">
+				</li>
+				<li class="arrival-tit">PRO LEATHER PONY HAIR</li>
+				<li class="arrival-cont">과감한 리믹스로 변화한 클래식 코트 스타일</li>
+				<li class="arrival-bt">
+					<button class="bt-rev invert">SHOP NOW</button>
+				</li>
+			</ul>
+			<ul class="arrival-item">
+				<li class="arrival-img"><img src="../img/MC_메인배너_chuck70-E260.jpg" alt="사진" class="img">
+				</li>
+				<li class="arrival-tit">CHUCK 70 E260</li>
+				<li class="arrival-cont">헤리티지 척 70과 퍼포먼스 ERX260 디자인의 조합으로 선보이는 배스킷볼 라이프스타일 스니커즈</li>
+				<li class="arrival-bt">
+					<button class="bt-rev invert">SHOP NOW</button>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- 중간: 카테고리 3개 선택 (선택하면 5개 이미지 배너) -->
+	<section class="choices wrap">
+		<ul class="choice-navis">
+			<li class="choice-navi active">MEN</li>
+			<li class="choice-navi">WOMEN</li>
+			<li class="choice-navi">KIDS</li>
+		</ul>
+		<div class="seller-prds">
+			<div class="choice-wrap">
+				<div class="best-prev" id="choice-prev">&lt;</div>
+				<div class="best-next" id="choice-next">&gt;</div>
+				<div class="common-items five" id="choice-wrap">
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/166316C_166316C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/166316C_166316C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척 70 쿼드 립스탑</li>
+						<li class="common-price">115,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/166320C_166320C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/166320C_166320C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척 70 E260</li>
+						<li class="common-price">129,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/166321C_166321C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/166321C_166321C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척 70 E260</li>
+						<li class="common-price">129,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/166495C_166495C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/166495C_166495C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척 70 앨리베이티드 플래드</li>
+						<li class="common-price">95,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/565866C_565866C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/565866C_565866C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척 70 메탈릭 레인보우</li>
+						<li class="common-price">109,000원</li>
+					</ul>
+				</div>
+			</div>
+			<div class="choice-wrap">
+				<div class="best-prev" id="choice-prev1">&lt;</div>
+				<div class="best-next" id="choice-next1">&gt;</div>
+				<div class="common-items five" id="choice-wrap1">
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/166217C_166217C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/166217C_166217C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">청 70 시즈널 컬러 스웨이드</li>
+						<li class="common-price">99,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/167488C_167488C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/167488C_shot2.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척 70 스웨이드</li>
+						<li class="common-price">95,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/167484C_167484C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/167484C_167484C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척 70 프린트 팩</li>
+						<li class="common-price">95,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/367353C_367353C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/367353C_367353C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">컨버스X겨울왕국2 척테일러 올스타</li>
+						<li class="common-price">79,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/566163C_566163C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/566163C_566163C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">원스타 플리스 라인드 부츠</li>
+						<li class="common-price">99,000원</li>
+					</ul>
+				</div>
+			</div>
+			<div class="choice-wrap">
+				<div class="best-prev" id="choice-prev2">&lt;</div>
+				<div class="best-next" id="choice-next2">&gt;</div>
+				<div class="common-items five" id="choice-wrap2">
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/767348C_767348C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/767348C_767348C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">컨버스X겨울왕국2 척테일러 올스타 인펀트</li>
+						<li class="common-price">39,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/767352C_767352C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/767352C_767352C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">컨버스X겨울왕국2 척테일러 올스타 인펀트</li>
+						<li class="common-price">39,000</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/667355C_667355C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/667355C_667355C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">컨버스X겨울왕국2 척테일러 올스타 키즈</li>
+						<li class="common-price">55,000</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/665903C_665903C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/665903C_665903C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">척테일러 올스타 하이퍼 부츠 키즈</li>
+						<li class="common-price">59,000원</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/366490C_366490C_primary.jpg" alt="기본" class="img img-def">
+							<img src="../img/366490C_366490C_3.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="quicks">QUICK VIEW</li>
+							</ul>
+						</li>
+						<li class="common-brand">잭퍼셀3V 컨버스 워드마크 키즈</li>
+						<li class="common-price">49,000원</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 하단: 이미지 두개 있는 POST -->
+	<section class="posts wrap">
+		<h3 class="posts-tit line-tit">
+			<span>LATEST POSTS</span>
+		</h3>
+		<ul class="post-items">
+			<li class="post-item">
+				<div class="post-img hover-img">
+					<img src="../img/PC_Bottom_훕헌터-1.jpg" alt="그림" class="img">
+				</div>
+				<ul class="post-desc">
+					<li class="tit">URBAN JUNGLE</li>
+					<li class="date">BY HALO THEMES ON JANUARY 17, 2019</li>
+					<li class="desc">카모플라주 컬러 블록 패턴으로 트렌디한 스타일을 완성하는 NEW 척 70 훕 헌터</li>
+				</ul>
+			</li>
+			<li class="post-item">
+				<div class="post-img hover-img">
+					<img src="../img/PC_Bottom_스타시리즈2-1.jpg" alt="그림" class="img">
+				</div>
+				<ul class="post-desc">
+					<li class="tit">BORN FROM</li>
+					<li class="date">BY HALO THEMES ON JANUARY 17, 2019</li>
+					<li class="desc">컨버스와 팅커 햇필드의 협업으로 탄생한 스포츠 라이프스타일 스니커즈 'NEW 스타시리즈'</li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+	<!-- 하단: 인스타그램 -->
+	<section class="instas">
+		<h3 class="insta-tit">
+			<i class="fab fa-instagram"></i>
+			#ELLA ON INSTAGRAM
+		</h3>
+		<div class="insta-slogan">
+			Phasellus lorem malesuada ligula pulvinar commodo maecenas
+		</div>
+		<div class="insta-wrap wrap rel">
+			<div class="best-prev" id="insta-prev">&lt;</div>
+			<div class="best-next" id="insta-next">&gt;</div>
+			<div>
+				<ul class="insta-items">
+					<li class="insta-item">
+						<img src="../img/71479294_2462837903806911_8978855008913063936_n.jpg" alt="인스타" class="img">
+					</li>
+					<li class="insta-item">
+						<img src="../img/70672947_2424229314334437_5251623887694725120_n.jpg" alt="인스타" class="img">
+					</li>
+					<li class="insta-item">
+						<img src="../img/67891151_2338960719527964_6822257801088204800_n.jpg" alt="인스타" class="img">
+					</li>
+					<li class="insta-item">
+						<img src="../img/72307736_2480325078724860_7946018586584154112_n.jpg" alt="인스타" class="img">
+					</li>
+					<li class="insta-item">
+						<img src="../img/72255592_161857248210380_8190689051066868041_n.jpg" alt="인스타" class="img">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="insta-bts">
+			<button class="bt-rev">VIEW GALLERY</button>
+		</div>
+	</section>
+	<!-- 푸터 1-->
+	<footer class="footer-tops">
+		<div class="footer-items wrap">
+			<ul class="footer-item">
+				<li class="tit">SHOP</li>
+				<li class="link"><a href="#" class="underbar">New In</a></li>
+				<li class="link"><a href="#" class="underbar">Women</a></li>
+				<li class="link"><a href="#" class="underbar">Men</a></li>
+				<li class="link"><a href="#" class="underbar">Shoes</a></li>
+				<li class="link"><a href="#" class="underbar">Bags & Accessories</a></li>
+				<li class="link"><a href="#" class="underbar">Top Brands</a></li>
+				<li class="link"><a href="#" class="underbar">Sale & Special Offers</a></li>
+				<li class="link"><a href="#" class="underbar">Lookbook</a></li>
+			</ul>
+			<ul class="footer-item">
+				<li class="tit">INFORMATION</li>
+				<li class="link"><a href="#" class="underbar">About</a></li>
+				<li class="link"><a href="#" class="underbar">Customer Service</a></li>
+				<li class="link"><a href="#" class="underbar">Reward Program</a></li>
+				<li class="link"><a href="#" class="underbar">Shipping & Returns</a></li>
+				<li class="link"><a href="#" class="underbar">Privacy Policy</a></li>
+				<li class="link"><a href="#" class="underbar">Terms & Conditions</a></li>
+				<li class="link"><a href="#" class="underbar">Blog</a></li>
+			</ul>
+			<ul class="footer-item">
+				<li class="tit">CUSTOMER SERVICE</li>
+				<li class="link"><a href="#" class="underbar">Search Terms</a></li>
+				<li class="link"><a href="#" class="underbar">Advanced Search</a></li>
+				<li class="link"><a href="#" class="underbar">Orders and Returns</a></li>
+				<li class="link"><a href="#" class="underbar">Contact Us</a></li>
+				<li class="link"><a href="#" class="underbar">Theme FAQs</a></li>
+				<li class="link"><a href="#" class="underbar">Consultant</a></li>
+				<li class="link"><a href="#" class="underbar">Store Locations</a></li>
+			</ul>
+			<div class="footer-item">
+				<ul>
+					<li class="tit">STAY CONNECTED</li>
+					<li class="footer-sns">
+						<ul class="sns-brand">
+							<li><i class="fab fa-facebook-f"></i></li>
+							<li><i class="fab fa-twitter"></i></li>
+							<li><i class="fab fa-google-plus-g"></i></li>
+							<li><i class="fab fa-instagram"></i></li>
+							<li><i class="fab fa-pinterest-p"></i></li>
+							<li><i class="fab fa-snapchat-ghost"></i></li>
+						</ul>
+						<div class="sns-like">
+							<div>LIKE US ON FACEBOOK</div>
+							<div>
+								<button class="btn btn-sm btn-primary">
+									<i class="fas fa-thumbs-up"></i>
+									<span>Like</span>
+									<span>13k</span>
+								</button>
+								<button class="btn btn-sm btn-primary">Share</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul>
+					<li class="tit">SIGN UP FOR OUR NEWSLETTER</li>
+					<li class="footer-email">
+						<input type="text" class="input-email" name="email" id="email" placeholder="enter your email address">
+						<button class="bt-rev">SUBMIT</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!-- 푸터 2-->
+	<footer class="footer-bots">
+		<div class="wrap">
+			<div class="footer-copy">© 2018 Ella Demo. All Rights Reserved. Ecommerce Software by Shopify.</div>
+			<div class="footer-copy">Shopify Themes by HaloThemes.com.</div>
+			<ul class="footer-billing">
+				<li><img src="../img/visa.jpg" alt="카드" class="img"></li>
+				<li><img src="../img/master_card.jpg" alt="카드" class="img"></li>
+				<li><img src="../img/american-express.jpg" alt="카드" class="img"></li>
+				<li><img src="../img/cirrus_Inverted.jpg" alt="카드" class="img"></li>
+				<li><img src="../img/discover.jpg" alt="카드" class="img"></li>
+				<li><img src="../img/paypal.jpg" alt="카드" class="img"></li>
+				<li><img src="../img/western.jpg" alt="카드" class="img"></li>
+			</ul>
+		</div>
+	</footer>
+	<!-- 스크립트 -->
+	<script src="../js/fx-slide.js"></script>
+	<script src="../js/util.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+
+</html>
