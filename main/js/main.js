@@ -93,3 +93,13 @@ $.ajax({
 		$(".map-desc").html(res.weather[0].description);
 	}
 });
+
+
+$(".icon-img").click(function(){
+	var idx = $(this).index();
+	var top = [];
+	$(".page").each(function(i){
+		top[i] = $(this).offset().top;
+	});
+	$("html, body").stop().animate({"scrollTop": top[idx]+"px"}, 1000);
+});

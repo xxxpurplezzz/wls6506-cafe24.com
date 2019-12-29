@@ -190,23 +190,24 @@ section {
 
 
 .pofor-items {
-	width: 60%;
-	left: 15%;
-	margin-top: 10rem;
-	padding-bottom: 30rem;
+	width: 100%;
+	max-width: 1200px;
+	left: 0;
+	right: 0;
+	margin: 10rem auto 30rem auto;
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .pofor-item {
-	flex: 49% 0 0;
+	flex: 50% 0 0;
 }
 
 
 .pofor-desc {
-	padding-top: 5rem;
-	margin-left: 15rem;
+	flex: 30% 0 0;
 }
 
 .pofor-desc>.tit {
@@ -336,28 +337,29 @@ section {
 	}
 
 	.pofor-cir > img {
-		width: 50%;
-	}
-
-	.pofor-cir2 {
-		top: -5%;
-		
+		width: 80%;
 	}
 
 	.pofor-cir2 > img {
-		width: 0%;
-		
-	}
-
-	.pofor-desc {
-		padding-top: 1rem;
-		margin-left: 5rem;
+		width: 280%;
 	}
 
 }
 
 /* 768 ~ 991 - md - 태블릿 세로 */
 @media screen and (max-width:768px) {
+	.pofor-items {
+		justify-content: center;
+	}
+
+	.pofor-item {
+		flex: 80% 0 0;
+	}
+
+
+	.pofor-desc {
+		flex: 80% 0 0;
+	}
 
 	.icon-img {
 		top: 7rem;
@@ -393,6 +395,7 @@ section {
 	.circle h5 {
 		font-size: 14px;
 	}
+
 }
 
 
@@ -402,6 +405,9 @@ section {
 		display: none;
 	}
 
+
+
+	/*
 	.pofor-items {
 	flex-wrap: wrap;
 	}
@@ -419,4 +425,5 @@ section {
 	.pofor-cir {
 		top: 7rem;
 	}
+	*/
 }
