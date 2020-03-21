@@ -7,10 +7,10 @@
 		$(this).find('.percent').html(Math.round(90 * progress) + '%');
 	});
 	$('.publishing .circle').eq(1).circleProgress({
-		value: 0.9,
+		value: 0.85,
 		fill: {gradient: ['#afc6e8']}
 	}).on('circle-animation-progress', function(event, progress){
-		$(this).find('.percent').html(Math.round(90 * progress) + '%');
+		$(this).find('.percent').html(Math.round(85 * progress) + '%');
 	});
 	$('.publishing .circle').eq(2).circleProgress({
 		value: 0.7,
@@ -39,10 +39,10 @@
 		$(this).find('.percent').html(Math.round(100 * progress) + '%');
 	});
 	$('.design .circle').eq(1).circleProgress({
-		value: 0.9,
+		value: 0.95,
 		fill: {gradient: ['#afc6e8']}
 	}).on('circle-animation-progress', function(event, progress){
-		$(this).find('.percent').html(Math.round(90 * progress) + '%');
+		$(this).find('.percent').html(Math.round(95 * progress) + '%');
 	});
 
 
@@ -54,10 +54,10 @@
 		$(this).find('.percent').html(Math.round(70 * progress) + '%');
 	});
 	$('.framework .circle').eq(1).circleProgress({
-		value: 0.4,
+		value: 0.5,
 		fill: {gradient: ['#afc6e8']}
 	}).on('circle-animation-progress', function(event, progress){
-		$(this).find('.percent').html(Math.round(40 * progress) + '%');
+		$(this).find('.percent').html(Math.round(50 * progress) + '%');
 	});
 	$('.framework .circle').eq(2).circleProgress({
 		value: 1,

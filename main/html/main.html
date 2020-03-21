@@ -11,12 +11,14 @@
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<script src="../js/jquery-3.4.1.min.js"></script>
 	<script src="../js/circle-progress.min.js"></script>
-	<script src="../js/popper.min.js"></script>
+	<!-- <script src="../js/popper.min.js"></script> -->
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/imagesloaded.pkgd.min.js"></script>
 	<script src="../js/wow.min.js"></script>
+	<script src="js/function.js"></script>
 
 </head>
 
@@ -24,7 +26,7 @@
 	<header>
 		<div class="bans LotteMartHappy">
 			<img src="../img/배경.svg" alt="메인" class="img">
-			<div class="banner-slogan position-absolute">
+			<div class="banner-slogan position-absolute" style="z-index: 9;">
 				<h1>HYOJIN's<br>HOME</h1>
 			</div>
 			<img src="../img/동그라미.png" alt="" class="circle-img" style="top: 20%; left: 10%; position: absolute;">
@@ -73,12 +75,11 @@
 	</header>
 	<section id="skill" class="page">
 		<div class="skill-tit">
-			<h3>SKILLS</h3>
-			<div class="box"></div>
+			<p>SKILLS</p>
 		</div>
 		<div>
 			<h4>Web Publishing</h4>
-			<p>머라쓰지룽!</p>
+			<!-- <p>보기 좋은 디자인을 하도록 노력하겠습니다!</p> -->
 			<div class="circle-wrap">
 				<div class="circle-scroll">
 					<ul class="circle-list publishing">
@@ -108,7 +109,7 @@
 		</div>
 		<div>
 			<h4>Web Design</h4>
-			<p>웅앵웅앵웅!</p>
+			<p></p>
 			<div class="circle-wrap">
 				<div class="circle-scroll">
 					<ul class="circle-list design">
@@ -126,7 +127,7 @@
 		</div>
 		<div>
 			<h4>Framework</h4>
-			<p>웅앵쓰</p>
+			<p></p>
 			<div class="circle-wrap">
 				<div class="circle-scroll">
 					<ul class="circle-list framework">
@@ -153,14 +154,13 @@
 	</section>
 	<section id="pofors" class="page">
 		<div class="pofors-tit">
-		<h3>PORTFOLIO</h3>
-			<div class="box1"></div>
+		<p>PORTFOLIO</p>
 		</div>
 		<div class="port-bg">
 			<ul class="pofor-items" style="position: relative;">
 				<li class="pofor-item">
 					<div class="pofor-img">
-						<img src="../img/AppleiMac-eco.png" alt="그림" style="position: relative; z-index: 9" class="img">
+						<img src="../img/AppleiMac-eco.png" alt="그림" style="position: relative; z-index: 9;" class="img">
 						<div class="pofor-cir">
 							<img src="../img/circle.png">
 						</div>
@@ -169,7 +169,7 @@
 				<ul class="pofor-desc">
 					<li class="tit">DINOTAENG Project :::</li>
 					<li class="date">HTML CSS JavaScript</li>
-					<li class="desc"><a href="/eco/html/main.html">팬시 아이템 '다이노탱' 리뉴얼 웹사이트 바로가기>>></a></li>
+					<li class="desc"><a  style="text-decoration: none; color: #333;" href="/eco/html/main.html">팬시 아이템 '다이노탱' 리뉴얼 웹사이트 바로가기>>></a></li>
 					<li class="colors d-flex justify-content-center">
 						<div class="dino-color" style="background-color: #2d2d51;"><i>#2d2d51</i></div>
 						<div class="dino-color" style="background-color: #dd2424;"><i>#dd2424</i></div>
@@ -179,30 +179,30 @@
 			</ul>
 		</div>
 			<div class="port-bg">
-			<ul class="pofor-items" style="position: relative;">
-				<li class="pofor-item">
-					<div class="pofor-img">
-						<img src="../img/AppleiMac-maps.png" alt="그림" style="position: relative; z-index: 9" class="img">
-						<div class="pofor-cir">
-							<img src="../img/circle.png">
-						</div>
-					</div>
-				</li>
+			<ul class="pofor-items2" style="position: relative;">
 				<ul class="pofor-desc">
 					<li class="tit">DINOTAENG Project :::</li>
 					<li class="date">HTML CSS JavaScript</li>
-					<li class="desc"><a href="/float/html/band.html">팬시 아이템 '다이노탱' 리뉴얼 웹사이트 바로가기>>></a></li>
+					<li class="desc"><a style="text-decoration: none; color: #333;" href="/float/html/band.html">패션잡지 'MAPS' 리뉴얼 웹사이트 바로가기>>></a></li>
 					<li class="colors d-flex justify-content-center">
 						<div class="dino-color" style="background-color: #e97474;"><i>#e97474</i></div>
 						<div class="dino-color" style="background-color: #d4b6b6;"><i>#d4b6b6</i></div>
 						<div class="dino-color" style="background-color: #f7f7f7; color: #aaa;"><i>#f7f7f7</i></div>
 					</li>
 				</ul>
+				<li class="pofor-item">
+					<div class="pofor-img">
+						<img src="../img/AppleiMac-maps.png" alt="그림" style="position: relative; z-index: 1" class="img">
+						<div class="pofor-cir2">
+							<img src="../img/circle.png">
+						</div>
+					</div>
+				</li>
 			</ul>
 		</div>
 		<ul class="pofor-items" style="position: relative;">
 			<li class="pofor-item">
-				<div class="pofor-img hover-img">
+				<div class="pofor-img">
 					<img src="../img/AppleiMac-converse.png" alt="그림" style="position: relative; z-index: 9" class="img">
 					<div class="pofor-cir">
 						<img src="../img/circle.png">
@@ -212,7 +212,7 @@
 			<ul class="pofor-desc">
 				<li class="tit">CONVERSE Project :::</li>
 				<li class="date">HTML CSS JavaScript JQUERY </li>
-				<li class="desc"><a href="/ella/html/main.html">신발브랜드 '컨버스' 리뉴얼 웹사이트 바로가기>>></a></li>
+				<li class="desc"><a style=" text-decoration: none; color: #333;" href="/ella/html/main.html">신발브랜드 '컨버스' 리뉴얼 웹사이트 바로가기>>></a></li>
 				<ul class="colors d-flex justify-content-center">
 					<li class="dino-color" style="background-color: #111;"><i>#111</i></li>
 					<li class="dino-color" style="background-color: #232323;"><i>#232323</i></li>
@@ -221,8 +221,31 @@
 			</ul>
 		</ul>
 	</section>
-	<section id="contact" class="page">
-		
+	<section class="page">
+	    <article class="atc">
+			<p class="h2_04">Contact</p>
+			<h6> 웹 퍼블리셔 김효진, 연락주세요 </h6>
+			<div class="intro">
+				<ul class="sns clearfix">
+					<li class="wow flipInX">
+						<h3>EMAIL US</h3>
+						<p><a href="mailto:yojins17@naver.com"><i class="far fa-envelope-open"></i></a></p>
+						<span>yojins17@naver.com</span>
+					</li>
+					<li class="wow flipInX" data-wow-delay=".3s">
+						<h3>PHONE</h3>
+						<p><a href="tel:+821072116506"><i class="fas fa-mobile-alt"></i></a></p>
+						<span>010-7211-6506</span>
+					</li>
+					<li class="wow flipInX" data-wow-delay=".6s">
+						<h3>INSTAGRAM</h3>
+						<p><a href="https://www.instagram.com/chexchocoxx/" target="_blank"><i
+									class="far fa-kiss-wink-heart"></i><span class="sr-only">인스타그램</span></a></p>
+						<span><i class="far fa-hand-point-up"></i> Click</span>
+					</li>
+				</ul>
+			</div>
+		</article>
 	</section>
 	<!-- scTop button -->
 	<div class="bt-top rounded text-light bt-top-show text-dark">
